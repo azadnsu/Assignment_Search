@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 class Locators(object):
 
-    LOGIN_BUTTON = (By.XPATH,'//*[@id="navbar"]/div/div/div/ul/li[2]/a')
+    LOGIN_BUTTON = (By.LINK_TEXT,'Login')
     USER_EMAIL = (By.ID,'user_email')
     USER_PASSWORD = (By.ID,'user_password')
     SUBMIT_BUTTON = (By.XPATH,'//*[@id="new_user"]/div[3]/input')
